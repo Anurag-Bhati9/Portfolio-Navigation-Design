@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .con {
+            height: 100vh;
+            background: linear-gradient(90deg, rgb(121, 14, 133), rgb(224, 94, 135));
+            padding: 30px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        ul {
+            width: 80%;
+            background-color: white;
+            padding: 10px;
+            border-radius: 24px;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        li {
+            transition: transform 0.3s ease;
+        }
+        li:hover {
+            transform: scale(1.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="project.html">PROJECTS</a></li>
+            <li><a href="achievement.html">Achievement</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </div>
+</body>
+</html>
